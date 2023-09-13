@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 st.header("KPP BMW peminatan C")
 st.subheader('Riyu Zaki Rizqulloh Putra Ardi ')
-ecg1 = np.loadtxt('DATA ECG.txt', dtype = 'float')
+ecg1 = np.loadtxt('Data ECG.txt', dtype = 'float')
 Ndata1 = len(ecg1)
 ECG = np.arange(Ndata1)
 st.line_chart(ecg1)
